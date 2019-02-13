@@ -1,3 +1,16 @@
-body {
-    background-color: aqua;
+.header {
+    font-family: Georgia, serif;
+}
+td {
+    border: 1px solid black;
+    font-family: Georgia, serif;
+}
+
+th {
+    border: 1px solid black;
+    font-family: Georgia, serif;
+}
+
+tr:nth-child(even) {
+    background-color: #cfffff;
 }
